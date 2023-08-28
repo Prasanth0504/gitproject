@@ -1,6 +1,8 @@
 package com.Day4Practice;
 
 public class Practice {
+	private static final String Welcome = null;
+
 	public static void main(String[] args) {
 
 		String a[]=new String [5];
@@ -18,13 +20,25 @@ public class Practice {
 		}
 		
 		String s1 = "sql";
-		String s2= "Java";
+		String s2 = "Java";
 		
 		
 		String concat = s1.concat(s2);
 
 		
 		System.out.println(s1 + '\t' +s2);
+		
+		
+		
+		
+		String x = "Welcome To Java Class";
+		
+		for (int i=x.length()-1; i>=0; i++) {
+			System.out.println(x.charAt(i));
+			
+			
+		}
+		
 	
 }
 
